@@ -13,5 +13,5 @@ chrome.runtime.onInstalled.addListener(function () {
         chrome.tabs.sendMessage(tabs[0].id, { text: selectedText });
       });
     }
-  });
+  }); 
   
